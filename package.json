@@ -1,0 +1,16 @@
+{
+  "name": "blogs-patch-package-demo",
+  "version": "1.0.0",
+  "description": "Demo for patching the node modules with the help of patch-package",
+  "main": "index.js",
+  "repository": "https://github.com/digvijayu/blogs-patch-package-demo.git",
+  "author": "Digvijay Upadhyay <digvijay.u20@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "^1.11.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module"
+}
