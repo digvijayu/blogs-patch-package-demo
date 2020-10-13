@@ -1,0 +1,12 @@
+diff --git a/node_modules/underscore/underscore.js b/node_modules/underscore/underscore.js
+index 5cfcbd2..4bcfbe2 100644
+--- a/node_modules/underscore/underscore.js
++++ b/node_modules/underscore/underscore.js
+@@ -1923,6 +1923,7 @@
+     range: range,
+     chunk: chunk,
+     mixin: mixin,
++    someDeprecatedFunction: function () { return 'I am from the deprecated function.' },
+     'default': _
+   };
+ 

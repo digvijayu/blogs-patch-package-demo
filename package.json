@@ -10,7 +10,11 @@
     "underscore": "^1.11.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "prepare": "patch-package"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "patch-package": "^6.2.2"
+  }
 }
